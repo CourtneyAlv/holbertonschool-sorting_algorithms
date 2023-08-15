@@ -12,7 +12,7 @@ void quick_sort(int *array, size_t size)
 	quick_sort_recursive(array, 0, size - 1, size);
 }
 /**
- * quicksort_recursive - Recursive function to perform Quick Sort
+ * quick_sort_recursive - Recursive function to perform Quick Sort
  * @array: Pointer to the array
  * @low: Starting index of the partition
  * @high: Ending index of the partition
